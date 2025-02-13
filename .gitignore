@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django database
+db.sqlite3
+*.sqlite3-journal
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# VS Code settings (optional)
+.vscode/
+
+# Migrations (optional, if you regenerate them)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Node modules (if applicable)
+node_modules/
